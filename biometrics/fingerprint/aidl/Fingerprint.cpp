@@ -17,7 +17,7 @@
 namespace aidl::android::hardware::biometrics::fingerprint {
 
 namespace {
-constexpr int MAX_ENROLLMENTS_PER_USER = 5;
+constexpr int MAX_ENROLLMENTS_PER_USER = 25;
 constexpr char HW_COMPONENT_ID[] = "fingerprintSensor";
 constexpr char HW_VERSION[] = "vendor/model/revision";
 constexpr char FW_VERSION[] = "1.01";
